@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Curved2d
+  m_Shader: {fileID: 4800000, guid: cae7fb24f5ee24269bba07fa808d4f23, type: 3}
+  m_ShaderKeywords: _EMISSION _NORMALMAP
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _AlphaTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BlendTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DistortTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DistortionTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SecondTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 8bca9fe6f70d3422b984ed9f49db5ee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    - first:
+        name: _Alpha
+      second: 1
+    - first:
+        name: _Blend
+      second: 0.249
+    - first:
+        name: _BumpAmt
+      second: 46.9
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _ColorGlitchOn
+      second: 1
+    - first:
+        name: _ColorIntensity
+      second: 0
+    - first:
+        name: _ColorMask
+      second: 15
+    - first:
+        name: _ColorProbability
+      second: 1
+    - first:
+        name: _ColorStrength
+      second: 0.19
+    - first:
+        name: _Cols
+      second: 6.49
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DeltaX
+      second: 0.01
+    - first:
+        name: _DeltaY
+      second: 0.01
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _Dim
+      second: 1.08
+    - first:
+        name: _DispGlitchOn
+      second: 1
+    - first:
+        name: _DispIntensity
+      second: 0
+    - first:
+        name: _DispProbability
+      second: 0.3
+    - first:
+        name: _Dist
+      second: 1
+    - first:
+        name: _Distance
+      second: 5.11
+    - first:
+        name: _Distortion
+      second: 0
+    - first:
+        name: _DistortionScaleX
+      second: 1
+    - first:
+        name: _DistortionScaleY
+      second: 1
+    - first:
+        name: _DistortionScrollX
+      second: -0.1
+    - first:
+        name: _DistortionScrollY
+      second: 0.1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _Fill
+      second: 1
+    - first:
+        name: _Frame
+      second: 4.97
+    - first:
+        name: _GlitchInterval
+      second: 0.1
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Magnitude
+      second: 0.227
+    - first:
+        name: _MaxX
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _MinX
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _PosX
+      second: 0
+    - first:
+        name: _PosY
+      second: 0
+    - first:
+        name: _Refraction
+      second: 0
+    - first:
+        name: _RefractionX
+      second: 0
+    - first:
+        name: _RefractionY
+      second: 0.01
+    - first:
+        name: _Rows
+      second: 11.62
+    - first:
+        name: _Scale
+      second: 0.182
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _Speed
+      second: 50
+    - first:
+        name: _SpeedX
+      second: 3
+    - first:
+        name: _SpeedY
+      second: 3
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _Stencil
+      second: 0
+    - first:
+        name: _StencilComp
+      second: 8
+    - first:
+        name: _StencilOp
+      second: 0
+    - first:
+        name: _StencilReadMask
+      second: 255
+    - first:
+        name: _StencilWriteMask
+      second: 255
+    - first:
+        name: _TexRatio
+      second: 1
+    - first:
+        name: _TexScale
+      second: 1
+    - first:
+        name: _Theta
+      second: 1
+    - first:
+        name: _TileX
+      second: 5
+    - first:
+        name: _TileY
+      second: 5
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _UseUIAlphaClip
+      second: 0
+    - first:
+        name: _WrapDispCoords
+      second: 1
+    - first:
+        name: _ZWrite
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Colour
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Curvature
+      second: {r: 2.63, g: 0.07, b: 0, a: -1.07}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Mouse
+      second: {r: 2.04, g: 0, b: 0, a: 0}
+    - first:
+        name: _PlaneScale
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _QOffset
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _RelativePos
+      second: {r: 0.31, g: 2.63, b: 0, a: 2.38}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _UvRect
+      second: {r: 0, g: 0, b: 1, a: 1}
